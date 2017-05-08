@@ -1,0 +1,11 @@
+target 'FindContentOfSelectedCell' do
+  use_frameworks!
+
+
+  target 'FindContentOfSelectedCellUITests' do
+    inherit! :search_paths
+
+    pod 'AutoMate'
+  end
+
+end
